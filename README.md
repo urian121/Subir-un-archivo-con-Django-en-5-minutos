@@ -143,38 +143,3 @@ COMANDO ADICIONALES:
 
 (.venv) > python manage.py createsuperuser
 (.venv) > python manage.py runserver
-
-Django es un sofisticado framework basado en Python con configuraciones de desarrollo de pila completa,
-como diseños de plantillas, solicitud y resolución de problemas, cookies, validación de formularios,
-pruebas unitarias, configuración de tablas y otras funcionalidades que los desarrolladores
-utilizan para crear aplicaciones web dinámicas.
-
-Django sigue un patrón arquitectónico Modelo-Vista-Plantilla (MVT) que ayuda a los desarrolladores a
-realizar tareas rutinarias o complejas de forma eficiente con poca intervención de protocolos,
-administración y sistemas al crear aplicaciones de alta intensidad y sitios web basados en bases de datos.
-Importante Djando genera las migraciones a partir de la informacion que existe en el modelo
-
----
-
-Un proyecto en Django vs aplicacion (son como modulos de mi proyecto) en Django, en generar un
-proyecto en Django esta compuesto por aplicaciones.
-
-amazon.com -> es el proyecto
-usuarios ->crear, editar, borrar, recuperar etc seria mi aplicacion o modulo
-tienda ->agregar, producto, borrar, editar, enviar producto etc.
-
----
-
-Los modelos Django proporciona una capa de abstracción
-(los «modelos») para estructurar y manipular los datos de su aplicación web.
-
-Crear administrador:
-python manage.py createsuperuser
-Luego escribir cualquier usuario y clave
-Las migraciones comprenden;la autentiticafion por defecto de Django
-Existen vistas de clases y vistas de funciones.
-
-Las vistas en Django son funciones de Python que reciben solicitudes HTTP y devuelven una respuesta HTTP, como un documento
-HTML.
-
-Un QuerySet es una colección de datos de una base de datos.

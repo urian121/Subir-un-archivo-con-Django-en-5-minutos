@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>File Path</th>
+    <th>Upload Date & Time</th>
+  </tr>
+  {% for file in archivos %}
+  <tr>
+    <td>{{ file.id }}</td>
+    <td>{{ file.title }}</td>
+    <td>{{ file.archivo.url }}</td>
+    <td>{{ file.date_at }}</td>
+  </tr>
+  {% endfor %}
+</table>
